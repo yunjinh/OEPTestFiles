@@ -1,45 +1,78 @@
+Comparing files .from.11 UMi.xml and .TO.11 UMI.XML
+***** .from.11 UMi.xml
 <system>
-	<name>11 UMi</name>
-	<rightascension>15 17 05.88899</rightascension>
-	<declination>+71 49 26.0466</declination>
-	<distance errorminus="2.8" errorplus="2.8">122.1</distance>
-	<star>
-		<name>11 UMi</name>
-		<name>11 Ursae Minoris</name>
-		<name>Pherkard</name>
-		<name>Pherkad Minor</name>
-		<name>HD 136726</name>
-		<name>HIP 74793</name>
-		<name>TYC 4414-2315-1</name>
-		<name>SAO 8207</name>
-		<name>HR 5714</name>
-		<name>BD+72 678</name>
-		<name>2MASS J15170588+7149258</name>
-		<mass errorminus="0.25" errorplus="0.25">1.80</mass>
-		<radius errorminus="1.84" errorplus="1.84">24.08</radius>
-		<magV>5.024</magV>
-		<magB>6.415</magB>
-		<magJ errorminus="0.230" errorplus="0.230">2.876</magJ>
-		<magH errorminus="0.194" errorplus="0.194">2.091</magH>
-		<magK errorminus="0.270" errorplus="0.270">1.939</magK>
-		<temperature errorminus="70" errorplus="70">4340</temperature>
-		<metallicity errorminus="0.04" errorplus="0.04">0.04</metallicity>
-		<spectraltype>K4III</spectraltype>
-		<planet>
-			<name>11 UMi b</name>
-			<name>11 Ursae Minoris b</name>
-			<name>HD 136726 b</name>
-			<list>Confirmed planets</list>
-			<mass errorminus="0.245" errorplus="0.245" type="msini">11.20</mass>
-			<period errorminus="3.25" errorplus="3.25">516.22</period>
-			<semimajoraxis errorminus="0.07" errorplus="0.07">1.54</semimajoraxis>
-			<eccentricity errorminus="0.03" errorplus="0.03">0.08</eccentricity>
-			<periastron errorminus="21.06" errorplus="21.06">117.63</periastron>
-			<periastrontime errorminus="2.06" errorplus="2.06">2452861.04</periastrontime>
-			<description>11 Ursae Minoris is a star located in the constellation Ursa Minor and also named Pherkard or Pherkad Minor.</description>
-			<discoverymethod>RV</discoverymethod>
-			<lastupdate>15/09/20</lastupdate>
-			<discoveryyear>2009</discoveryyear>
-		</planet>
-	</star>
-</system>
+        <declination>+71 49 26</declination>
+        <name>11 UMi</name>
+        <rightascension>15 17 06</rightascension>
+        <star>
+                <magH errorminus="0.194" errorplus="0.194">2.091</magH>
+***** .TO.11 UMI.XML
+<system>
+        <declination>+71 49 26.0466</declination>
+        <distance errorminus="2.8" errorplus="2.8">122.1</distance>
+        <name>11 UMi</name>
+        <rightascension>15 17 05.88899</rightascension>
+        <star>
+                <magB>6.415</magB>
+                <magH errorminus="0.194" errorplus="0.194">2.091</magH>
+*****
+
+***** .from.11 UMi.xml
+                <magK errorminus="0.270" errorplus="0.270">1.939</magK>
+                <magV errorminus="0.009" errorplus="0.009">5.016</magV>
+                <mass errorminus="-0.25" errorplus="0.25">1.80</mass>
+                <metallicity>0.040</metallicity>
+                <name>11 UMi</name>
+                <planet>
+                        <discoverymethod>Radial Velocity</discoverymethod>
+                        <discoveryyear>2009</discoveryyear>
+                        <eccentricity errorminus="-0.030000" errorplus="0.030000">0.080000</eccentricity>
+                        <lastupdate>2014-05-14</lastupdate>
+                        <mass errorminus="-2.47000" errorplus="2.47000">10.50000</mass>
+                        <name>11 UMi b</name>
+                        <periastron errorminus="-21.0600" errorplus="21.0600">117.6300</periastron>
+                        <period errorminus="-3.25000000" errorplus="3.25000000">516.22000000</period>
+                        <semimajoraxis errorminus="-0.070000" errorplus="0.070000">1.540000</semimajoraxis>
+                </planet>
+                <radius errorminus="-1.84" errorplus="1.84">24.08</radius>
+                <temperature errorminus="-70.00" errorplus="70.00">4340.00</temperature>
+        </star>
+***** .TO.11 UMI.XML
+                <magK errorminus="0.270" errorplus="0.270">1.939</magK>
+                <magV>5.024</magV>
+                <mass errorminus="0.25" errorplus="0.25">1.80</mass>
+                <metallicity errorminus="0.04" errorplus="0.04">0.04</metallicity>
+                <name>11 UMi</name>
+                <name>11 Ursae Minoris</name>
+                <name>2MASS J15170588+7149258</name>
+                <name>BD+72 678</name>
+                <name>HD 136726</name>
+                <name>HIP 74793</name>
+                <name>HR 5714</name>
+                <name>Pherkad Minor</name>
+                <name>Pherkard</name>
+                <name>SAO 8207</name>
+                <name>TYC 4414-2315-1</name>
+                <planet>
+                        <description>11 Ursae Minoris is a star located in the constellation Ursa Minor and also named Pherkard
+ or Pherkad Minor.</description>
+                        <discoverymethod>RV</discoverymethod>
+                        <discoveryyear>2009</discoveryyear>
+                        <eccentricity errorminus="0.03" errorplus="0.03">0.08</eccentricity>
+                        <lastupdate>15/09/20</lastupdate>
+                        <list>Confirmed planets</list>
+                        <mass errorminus="0.245" errorplus="0.245" type="msini">11.20</mass>
+                        <name>11 UMi b</name>
+                        <name>11 Ursae Minoris b</name>
+                        <name>HD 136726 b</name>
+                        <periastron errorminus="21.06" errorplus="21.06">117.63</periastron>
+                        <periastrontime errorminus="2.06" errorplus="2.06">2452861.04</periastrontime>
+                        <period errorminus="3.25" errorplus="3.25">516.22</period>
+                        <semimajoraxis errorminus="0.07" errorplus="0.07">1.54</semimajoraxis>
+                </planet>
+                <radius errorminus="1.84" errorplus="1.84">24.08</radius>
+                <spectraltype>K4III</spectraltype>
+                <temperature errorminus="70" errorplus="70">4340</temperature>
+        </star>
+*****
+
